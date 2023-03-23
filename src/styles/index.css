@@ -77,9 +77,7 @@ body{
     left: 190px;
 }
 .you_name{
-    background: linear-gradient(180deg , #da007c 100%, rgb(0, 0, 0) 0%) ;
-    -webkit-background-clip: text;
-    color: transparent;
+    color: rgb(255, 29, 244);
 }
 .main--question-container{
     width: 100%;
