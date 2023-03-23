@@ -15,7 +15,7 @@ body{
     width: 100%;
     min-width: 320px;
     height: 40vh;
-    background-image: url(../assets/imgs/fondos/romantic.jpg);
+    background-image: url("../assets/imgs/fondos/romantic.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ body{
 .main--question-container{
     width: 100%;
     height: 400px;
-    background-image: url(../assets/imgs/fondos/chocolates.jpg);
+    background-image: url("../assets/imgs/fondos/chocolates.jpg");
 }
 .question{
     font-size: 2rem;
