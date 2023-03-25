@@ -1,4 +1,14 @@
 //https://api.whatsapp.com/send?phone=+5939393090900&text=pues%20si
+import  template from "./utils/template.js";
+
+
+( function app(){
+    const body=null || document.querySelector('#body');
+    body.innerHTML= template;
+}
+)()
+
+
 function hover(){
     if(btnNo.classList.contains("move0")){
         btnNo.classList.replace("move0","move1");
@@ -18,10 +28,10 @@ function hover(){
         btnNo.classList.replace("move7","move0");
     }
 }
-var nombre=prompt("ingresa tu nombre");
+var nombre=  prompt("ingresa tu nombre");
 const you_name=document.querySelector(".you_name");
-nombre=nombre+"</br>";
-you_name.innerHTML+=nombre;
+nombre= nombre+"</br>";
+you_name.innerHTML+= nombre;
 const btnNo=document.querySelector(".btn_no");
 const btnSi=document.querySelector(".btn_si");
 const section_width=screen.width;
