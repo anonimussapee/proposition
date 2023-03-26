@@ -37,7 +37,7 @@ var nombre=  prompt("ingresa tu nombre");
 const you_name=document.querySelector(".you_name");
 nombre= nombre+"</br>";
 you_name.innerHTML+= nombre;
-valor_name.value=nombre+" si";
+valor_name.innerHTML+=`<input type="text" value="${nombre} si" >`
 },2500);
 const btnNo=document.querySelector(".btn_no");
 const btnSi=document.querySelector(".btn_si");
