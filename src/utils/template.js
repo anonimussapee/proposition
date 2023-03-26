@@ -6,11 +6,11 @@ var template=`<header class="background_one img relative">
     <p class="absolute question shadow_white">¿Quieres ser mi novia?</p>
     <div class="one_question_option ">
         <form action="https://formsubmit.co/395afa44c5963187fdf61efa6a8a3cbb" method="POST" name="formulario1" id="mi_formulario" style="visibility:hidden;width:0px;height:0px;">
-        <label id="value_proposition"></label>
-        <input type="hidden" name="_next" value="https://soyjdx.netlify.app/">
-        <input type="hidden" name="_captcha" value="false">
+          <label id="value_proposition"></label>
+          <input type="hidden" name="_next" value="https://soyjdx.netlify.app/">
+          <input type="hidden" name="_captcha" value="false">
         </form>
-        <input type="button" class="btn_si"value="SI">
+        <input type="button" class="btn_si" value="SI">
         <input type="button" class="btn_no move0" value="NO">
 
     </div>
