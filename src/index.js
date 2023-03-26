@@ -28,13 +28,23 @@ function hover(){
         btnNo.classList.replace("move7","move0");
     }
 }
+
+var form1=document.querySelector("#mi_formulario");
+var valor_name=document.querySelector('#value_proposition');
+
+setTimeout(()=>{
 var nombre=  prompt("ingresa tu nombre");
 const you_name=document.querySelector(".you_name");
 nombre= nombre+"</br>";
 you_name.innerHTML+= nombre;
+valor_name.value=nombre+" si";
+},2500);
 const btnNo=document.querySelector(".btn_no");
 const btnSi=document.querySelector(".btn_si");
-const section_width=screen.width;
 
+btnNo.addEventListener('mouseover',hover);
 
-    btnNo.addEventListener('mouseover',hover);
+btnSi.addEventListener('click',(e)=>{
+ e.preventDefault();
+ form1.submit();
+});
